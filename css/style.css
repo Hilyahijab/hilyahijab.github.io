@@ -2,7 +2,7 @@
 
 	padding: 0;
 	margin: 0;
-	font: sans-serif;
+	font-family: cursive;
 }
 a{
 	color: inherit;
@@ -10,8 +10,9 @@ a{
 }
 
 .medsos{
-	padding: 5px 0;
+	padding: 20px 0;
 	background-color: #FF79D8;
+	border: 2px;
 }
 .medsos ul li{
 	display: inline-block;
@@ -19,12 +20,12 @@ a{
 	margin-right: 10px;
 }
 .container{
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 header{
 
-
+border: 2px;
 }
 header h1{
 
@@ -59,13 +60,15 @@ header ul li a:hover {
 	align-items: center;
 	text-align: center;
 }
-.banner:after{
+.banner:after
+{
 	content: " ";
 	display: block;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
+
 
 }
 .banner h2{
@@ -81,18 +84,33 @@ section h3{
 	text-align: center;
 	padding: 20px 0;
 	color: #FF79D8;
+	font-size: 40px;
 }
 .about p{
 	color: #666;
 	word-spacing: 2px;
-	line-height: 25px;
+	line-height: 30px;
+	font-size: 30px;
+	text-align: center;
+
 }
 .daftar{
 	text-align: center;
-	color: #666;
-	word-spacing: 2px;
+	color: #FF79D8;
+	word-spacing: 1px;
 	line-height: 25px;
+	text-align: center;
+	font-size: 50px;
+	
 }
+.daftar p{
+	color: #666;
+	word-spacing: 5px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+
 .contact{
 	background-color: #FF79D8;
 }
